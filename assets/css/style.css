@@ -26,11 +26,22 @@ header h1 {
 }
 header p {
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    padding: 2rem;
  }
+
+#current-date {
+    text-align: center;
+    width: 100%;
+    border-bottom: 10px solid black;
+}
 
  #planner {
     display: flex;
     flex-direction: column;
     align-items: start;
+ }
+
+ #planner p {
+    padding: 5rem;
+    border-top: 3px dotted white;
  }
