@@ -31,27 +31,135 @@ header p {
 
 #current-date {
     text-align: center;
-    width: 100%;
-    border-bottom: 10px solid black;
+    width: 100%;    
 }
 
- #planner {
+#save-message {
+    text-align: center;
+    border-bottom: 10px solid black;
+    width: 100%;
+}
+
+#planner {
     display: flex;
     flex-direction: column;
     align-items: start;
     width: 100%;
  }
 
- #planner p {
-    padding: 5rem;
-    border-top: 3px dotted white;
- }
-
- .rows {
+.rows {
     display: flex;
     flex-direction: row;
  }
 
- #day9AM {
+.days {
+    padding: 5rem;
+    border-top: 3px dotted white;
+ }
 
+
+
+.input {
+    
+    background-color: var(--past);
+    width: 100%;
+    border-top: 3px solid slategray;
+    padding:5rem
+}
+
+/*#input1 {
+    background: var(--past);
+    background-clip: padding-box;
+    padding: 5.1rem;
+}
+
+#input2 {
+    background: var(--past);
+    background-clip: padding-box;
+    padding: 5.1rem;
+}*/
+
+.buttons {
+    border-top: 3px solid slategray;
+}
+
+#button1 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button2 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button3 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button4 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button5 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button6 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button7 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button8 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
+ }
+
+ #button9 {
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+    text-align: center;
  }
