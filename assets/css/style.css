@@ -39,9 +39,19 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: start;
+    width: 100%;
  }
 
  #planner p {
     padding: 5rem;
     border-top: 3px dotted white;
+ }
+
+ .rows {
+    display: flex;
+    flex-direction: row;
+ }
+
+ #day9AM {
+
  }
