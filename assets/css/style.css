@@ -50,6 +50,7 @@ header p {
 .rows {
     display: flex;
     flex-direction: row;
+    width:100%
  }
 
 .days {
@@ -57,10 +58,7 @@ header p {
     border-top: 3px dotted white;
  }
 
-
-
 .input {
-    
     background-color: var(--past);
     width: 100%;
     border-top: 3px solid slategray;
@@ -81,6 +79,7 @@ header p {
 
 .buttons {
     border-top: 3px solid slategray;
+    position: ;
 }
 
 #button1 {
